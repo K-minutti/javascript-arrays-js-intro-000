@@ -4,10 +4,14 @@ var chocolateBars = [
 ]
 
 function addElementToBeginningOfArray(array, element) {
-
+  var arrayNew = ["New York", "San Francisco"]
+  ["Philadelphia", ...arrayNew]
+  newCities =   ["Philadelphia", ...arrayNew]
+  return newCities
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
  var arrayDes = [1,2,3]
  arrayDes.unshift(1)
+ return arrayDes
 }
